@@ -1,0 +1,11 @@
+[
+  {"code":"pro1","nom":"Acer IConia","prix":8000,"cat":"Ordinateurs","photo":"pro1.png"},
+  {"code":"pro2","nom":"HP Innovation","prix":7000,"cat":"Ordinateurs","photo":"pro2.png"},
+  {"code":"pro3","nom":"Sciemens Avenir","prix":10000,"cat":"Ordinateurs","photo":"pro3.png"},
+  {"code":"pro4","nom":"HP XX","prix":2500,"cat":"Imprimantes","photo":"pro4.png"},
+  {"code":"pro5","nom":"Lexmark YY","prix":1500,"cat":"Imprimantes","photo":"pro5.png"},
+  {"code":"pro6","nom":"Souris LG","prix":80,"cat":"Accessoires","photo":"pro6.png"},
+  {"code":"pro7","nom":"Casque Sony xx","prix":200,"cat":"Accessoires","photo":"pro7.png"},
+  {"code":"pro8","nom":"Clavier sans Fil N1","prix":150,"cat":"Accessoires","photo":"pro8.png"},
+  {"code":"pro9","nom":"Clavier USB N2","prix":100,"cat":"Accessoires","photo":"pro9.png"}
+]
