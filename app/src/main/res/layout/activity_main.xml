@@ -7,6 +7,36 @@
     tools:context=".MainActivity"
     android:id="@+id/drawer">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Liste des produits de la categorie :"
+            />
+
+        <fragment
+            android:id="@+id/frag1"
+            android:name="com.example.ex1.F1Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_f1"/>
+
+        <fragment
+            android:id="@+id/frag2"
+            android:name="com.example.ex1.F2Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            tools:layout="@layout/fragment_f2"/>
+
+
+
+    </LinearLayout>
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navig"
         android:layout_width="match_parent"
